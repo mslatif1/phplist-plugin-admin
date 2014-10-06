@@ -2484,7 +2484,6 @@ function uppercase($str){
 }
 function lowercase($str){
 	global $charset;
-    return mb_strtolower($str, $charset);
 }
 // +--------------------------------------------------
 // | Interface
